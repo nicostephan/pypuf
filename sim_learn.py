@@ -13,7 +13,7 @@ if len(argv) != 8:
     stderr.write('                  currently available:\n')
     stderr.write('                  - id  -- does nothing at all\n')
     stderr.write('                  - atf -- convert according to "natural" Arbiter chain\n')
-    stderr.write('                  -        implementation\n')
+    stderr.write('                           implementation\n')
     stderr.write('                  - mm  -- designed to achieve maximum PTF expansion length\n')
     stderr.write('                          only implemented for k=2 n=64\n')
     stderr.write('        combiner: used to combine the output bits to a single bit\n')
