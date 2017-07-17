@@ -115,6 +115,7 @@ for j in range(instances):
     
     if algorithm==2:
         learner = PolytopeAlgorithm(
+                instance,
                 tools.TrainingSet(instance=instance, N=N),
                 n,
                 k,
