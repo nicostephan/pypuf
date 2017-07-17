@@ -82,7 +82,7 @@ class PolytopeAlgorithm(Learner):
             stderr.write('\riter %5i         ' % (self.iteration_count))
             self.iteration_count += 1
             (center,radius) = self.__chebyshev_center(challenges, responses)
-            model.weight_array=center
+            model.weight_array=[center]
 #            print(center)
             # check accuracy
             distance = (self.training_set.N - count_nonzero(self.training_set.responses == self.sign_combined_model_responses)) / self.training_set.N
